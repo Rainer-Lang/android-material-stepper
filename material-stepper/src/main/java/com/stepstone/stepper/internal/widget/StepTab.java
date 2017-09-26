@@ -122,7 +122,7 @@ public class StepTab extends RelativeLayout {
 
     public StepTab(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
-        LayoutInflater.from(getContext()).inflate(R.layout.ms_step_tab, this, true);
+        LayoutInflater.from(getContext()).inflate(R.layout.ms_step_tab_vertical, this, true);
 
         mSelectedColor = ContextCompat.getColor(context, R.color.ms_selectedColor);
         mUnselectedColor = ContextCompat.getColor(context, R.color.ms_unselectedColor);
